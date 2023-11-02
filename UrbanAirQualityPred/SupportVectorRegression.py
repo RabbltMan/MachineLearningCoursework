@@ -4,7 +4,7 @@ from pandas import read_csv
 from sklearn.linear_model import SGDRegressor
 from sklearn.kernel_approximation import Nystroem
 
-
+@DeprecationWarning
 class SupportVectorRegression(object):
 
     def __init__(self) -> None:
@@ -40,8 +40,6 @@ class SupportVectorRegression(object):
             plt.plot(y_pred[:, i], label="pred")
             plt.plot(y_true, linestyle='--', label="true")
             plt.legend()
-
         plt.show()
-
 
 SupportVectorRegression()
