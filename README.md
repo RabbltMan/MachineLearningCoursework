@@ -6,7 +6,7 @@ It includes source codes of a individual task `Urban Air Quality Prediction` and
 
 ## Contents
 
-![Progress](https://progress-bar.dev/0/?title=Progress&width=430&color=336699)
+![Progress](https://progress-bar.dev/50/?title=Progress&width=430&color=336699)
 
-- [ ] Urban Air Quality Prediction
+- [x] Urban Air Quality Prediction
 - [ ] Inverted Double Pendulum
