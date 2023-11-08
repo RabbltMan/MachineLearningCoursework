@@ -7,8 +7,6 @@ authors = [
 ]
 dependencies = [
     "gymnasium[mujoco]>=0.29.1",
-    "pylint>=3.0.2",
-    "autopep8>=2.0.4",
     "mujoco<3.0.0"
 ]
 requires-python = ">=3.9,<3.13"
